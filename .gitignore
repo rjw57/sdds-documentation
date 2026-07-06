@@ -1,0 +1,18 @@
+# Compiled bytecode
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Caches
+.cache
+
+# Virtual environments and build artifacts.
+.venv
+build
+dist
+
+# Zensical managed directories.
+site
+
+# Editor configuration
+.vscode

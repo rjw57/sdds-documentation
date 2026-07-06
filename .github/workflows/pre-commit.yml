@@ -1,0 +1,12 @@
+name: Run pre-commit checks
+on: [push, pull_request]
+
+jobs:
+  pre-commit:
+    name: Pre-commit hooks
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: j178/prek-action@v2
