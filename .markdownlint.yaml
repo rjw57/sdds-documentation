@@ -1,0 +1,10 @@
+default: true
+MD013:
+  line_length: 100
+  code_blocks: false
+  tables: false
+
+MD025:
+  # It is idiomatic to have a different title and top-level heading in mkdocs since one is for the
+  # ToC and one is for the page itself.
+  front_matter_title: ""
